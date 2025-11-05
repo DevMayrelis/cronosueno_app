@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "111910803255",
+    "project_id": "app-cronosueno",
+    "storage_bucket": "app-cronosueno.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111910803255:android:7dcf8cf0dd6f1dfa326cb2",
+        "android_client_info": {
+          "package_name": "com.example.cronosueno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFawiwRVhL-EfIGmTacd56JOPY8_cGFgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

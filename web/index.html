@@ -33,6 +33,24 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+
+  <!-- CÓDIGO DE FIREBASE AQUÍ -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyC8FandwNVhL-Ef10nfacd5GJOPYg_cGFgl",
+      authDomain: "app-cronosueno.firebaseapp.com",
+      projectId: "app-cronosueno",
+      storageBucket: "app-cronosueno.firebasestorage.app",
+      messagingSenderId: "111910893255",
+      appId: "1:111910893255:android:7dcf8c6fed6f1dfa326cb2"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <!-- FIN DEL CÓDIGO FIREBASE -->
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
