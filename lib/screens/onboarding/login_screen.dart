@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'registro_screen.dart';
+import '../eventos/eventos_screen.dart '; // Para navegar a EventsScreen
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -387,7 +388,9 @@ class _LoginScreenState extends State<LoginScreen> {
       if (!mounted) return;
       _mostrarSnackBar('Sesión iniciada correctamente');
 
-      // Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+      // CAMBIO PRINCIPAL: Navegar a EventsScreen después del login exitoso
+      Navigator.pushReplacement(context,
+          MaterialPageRoute(builder: (context) => const EventosScreen()));
     } on FirebaseAuthException catch (e) {
       String errorMessage = 'Error al iniciar sesión';
       if (e.code == 'user-not-found') {

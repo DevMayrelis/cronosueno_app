@@ -344,7 +344,7 @@ class _RegistroScreenState extends State<RegistroScreen> {
                           ),
                         )
 
-                      // SI NO ESTÁ CARGANDO, MOSTRAR TEXTO
+                      // SI NO ESTÁ CARGANDO, MOSTRAR TEXTOs
                       : Text(
                           'REGISTRAR',
                           style: GoogleFonts.inter(

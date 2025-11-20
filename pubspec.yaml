@@ -43,6 +43,12 @@ dependencies:
   firebase_auth: ^6.1.2
   cloud_firestore: ^6.1.0
 
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2 #para la internacionalizacion y manejo de fechas
+
+  #provider state management
+  provider: ^6.1.1
 
 # dev_dependencies for testing and linting
 dev_dependencies:
